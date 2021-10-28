@@ -5,23 +5,23 @@ Foi desenvolvida uma nova função que executa a operação lógica NAND, sendo 
 A partir desta ideia, foram implementadas no código do processador as definições e operações necessárias para o funcionamento da função, utilizando como parâmetro as funções já existentes.
 
 ## Alterações:
-***•	Defs.h***
-Linha 104: Foi implementada a definição de NAND_CODE através de um define com valor 98;
-Linha 136: Definição do valor binário “010111” para LNAND;
-Linha 217: Definição de NAND_STR, para que o montador reconheça o comando NAND.
-***•  Montador.c***
-Linha 207: Definição da instrução NAND_CODE;
-Linha 845: Desenvolve as instruções do case NAND_CODE;
-Linha 2300: Se a instrução inserida for NAND_STR, a instrução NAND_CODE é retornada.
-***•	Mneumonicos.h***
-Linha 22: Define LNAND com o valor 23.
-***•	View.cpp***
-Linha 239: Executa o comando sprintf para a instrução LNAND.
-***•	Model.cpp***
-Linha 565: Desenvolve a instrução LNAND.
-***•	Simple_simulator.c***
-Linha 80: Insere a definição da instrução lógica LNAND com valor 23;
-Linha 952: Se a operação for LNAND, executa a instrução armazenando o resultado.
+**•	Defs.h**
+*Linha 104:* Foi implementada a definição de NAND_CODE através de um define com valor 98;
+*Linha 136:* Definição do valor binário “010111” para LNAND;
+*Linha 217:* Definição de NAND_STR, para que o montador reconheça o comando NAND.
+**•  Montador.c**
+*Linha 207:* Definição da instrução NAND_CODE;
+*Linha 845:* Desenvolve as instruções do case NAND_CODE;
+*Linha 2300:* Se a instrução inserida for NAND_STR, a instrução NAND_CODE é retornada.
+**•	Mneumonicos.h**
+*Linha 22:* Define LNAND com o valor 23.
+**•	View.cpp**
+*Linha 239:* Executa o comando sprintf para a instrução LNAND.
+**•	Model.cpp**
+*Linha 565:* Desenvolve a instrução LNAND.
+**•	Simple_simulator.c**
+*Linha 80:* Insere a definição da instrução lógica LNAND com valor 23;
+*Linha 952:* Se a operação for LNAND, executa a instrução armazenando o resultado.
 
 ## Funcionamento:
 O funcionamento da função de operação lógica NAND ocorre de maneira semelhante às demais funções lógicas já presentes no Processador (AND, OR e XOR), que percorrem os mesmos caminhos apesar de executarem diferentes tarefas.
