@@ -4,7 +4,7 @@ Implementação de uma nova função no Processador ICMC para a disciplina de Or
 Foi desenvolvida uma nova função que executa a operação lógica NAND, sendo esta responsável pela negação da operação lógica AND, já presente no Processador.
 A partir desta ideia, foram implementadas no código do processador as definições e operações necessárias para o funcionamento da função, utilizando como parâmetro as funções já existentes.
 
-*Vídeo Explicativo: https://drive.google.com/file/d/1l9sSNHG-KI2eRLRL4cDh3ndIizlBbho_/view?usp=sharing
+*Vídeo Explicativo: https://drive.google.com/file/d/1l9sSNHG-KI2eRLRL4cDh3ndIizlBbho_/view?usp=sharing*
 
 ## Alterações:
 **•	Defs.h**
